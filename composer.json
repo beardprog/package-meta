@@ -1,0 +1,27 @@
+{
+    "name": "anatskyi/meta",
+    "description": "test package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksandr Anatskyi",
+            "email": "a.anackiy@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Anatskyi\\Meta\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anatskyi\\Meta\\MetaServiceProvider"
+            ],
+            "aliases": {
+                "Meta": "Anatskyi\\Meta\\Meta"
+            }
+        }
+    }
+}
